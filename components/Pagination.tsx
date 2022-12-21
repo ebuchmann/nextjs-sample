@@ -18,7 +18,7 @@ const Pagination: FC<PaginationProps> = ({ total, setOffset }) => {
 
   return (
     <nav aria-label="pagination">
-      <ul className="flex">
+      <ul className="flex flex-wrap">
         {pages.map((pageNumber) => (
           <li key={pageNumber}>
             <button
